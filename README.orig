@@ -1,0 +1,49 @@
+======
+g15vim
+======
+
+What is it for?
+===============
+
+   It is a Vim script.
+   It can help to write on the G15 Logitech keyboard LCD screen.
+
+What are the prerequisites?
+===========================
+
+   First, You need:
+      -libg15 1.2.7
+      -libg15render 1.2
+      -g15Daemon 1.9.5.3
+
+      All are available on: http://www.g15tools.com/
+
+   Then, you need:
+      -vim 7.2.018
+
+      It is available on: http://www.vim.org/
+
+How to get it?
+==============
+
+   You can download it on:
+      http://yugiohjcj.1s.fr/
+
+How to install it?
+==================
+
+   Just put the 2 files:
+      -draw-on-g15
+      -g15vim.vim
+
+   into the folder ~/.vim/plugin
+
+How to run it?
+==============
+
+   It run automatically at the start of Vim.
+
+How to contact you?
+===================
+
+   You must read the AUTHORS file.

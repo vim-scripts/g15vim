@@ -1,7 +1,7 @@
 " g15vim
 " By YuGiOhJCJ <yugiohjcj@1s.fr>
 " http://yugiohjcj.1s.fr/
-" 20090528
+" 20090608
 "
 " This program is free software: you can redistribute it and/or modify
 " it under the terms of the GNU General Public License as published by
@@ -21,10 +21,10 @@ function DrawOnG15()
    let my_buffname=bufname("%")
    let my_line=line(".")
    let my_col=col(".")
-   let my_command='!~/.vim/plugin/draw-on-g15 [g15vim] "" "line: '.my_line.'" "col: '.my_col.'" "" "buffname: '.my_buffname.'" &'
+   let my_command='!~/.vim/plugin/draw-on-g15 [g15vim] "" "line: '.my_line.'" "col: '.my_col.'" "" "buffname: '.my_buffname.'" 2>/dev/null &'
    :silent :execute my_command
 endfunction
 
-:silent :!~/.vim/plugin/draw-on-g15 "[g15vim]" "" "By YuGiOhJCJ <yugiohjcj@1s.fr>" &
+:silent :!~/.vim/plugin/draw-on-g15 "[g15vim]" "" "By YuGiOhJCJ <yugiohjcj@1s.fr>" 2>/dev/null &
 :autocmd cursorMoved * :call DrawOnG15()
 :autocmd cursorMovedI * :call DrawOnG15()

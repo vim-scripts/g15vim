@@ -1,0 +1,7 @@
+======
+g15vim
+======
+
+20090608: Add ChangeLog file. Redirect the standard error output stream to the null
+device.
+20090528: First version.

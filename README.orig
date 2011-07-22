@@ -11,7 +11,7 @@ What is it for?
 What are the prerequisites?
 ===========================
 
-   First, You need:
+   First, you need:
       -libg15 1.2.7
       -libg15render 1.2
       -g15Daemon 1.9.5.3
@@ -19,7 +19,7 @@ What are the prerequisites?
       All are available on: http://www.g15tools.com/
 
    Then, you need:
-      -vim 7.2.018
+      -vim 7.2.445
 
       It is available on: http://www.vim.org/
 
@@ -36,12 +36,14 @@ How to install it?
       -draw-on-g15
       -g15vim.vim
 
-   into the folder ~/.vim/plugin
+   into the ~/.vim/plugin directory.
 
 How to run it?
 ==============
 
-   It run automatically at the start of Vim.
+   It runs automatically at the start of Vim.
+
+   You can type the ':G15vim "Hello World"' command in Vim to test the plugin.
 
 How to contact you?
 ===================

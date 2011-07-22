@@ -25,6 +25,8 @@ function DrawOnG15()
    :silent :execute my_command
 endfunction
 
-:silent :!~/.vim/plugin/draw-on-g15 "[g15vim]" "" "By YuGiOhJCJ <yugiohjcj@1s.fr>" 2>/dev/null &
+:command -nargs=* G15vim :silent :!~/.vim/plugin/draw-on-g15 "[g15vim]" "" <args> 2>/dev/null &
+
+:silent :!~/.vim/plugin/draw-on-g15 "[g15vim]" "" "By YuGiOhJCJ <yugiohjcj@1s.fr>" "" "http://yugiohjcj.1s.fr/" 2>/dev/null &
 :autocmd cursorMoved * :call DrawOnG15()
 :autocmd cursorMovedI * :call DrawOnG15()

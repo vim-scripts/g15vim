@@ -1,7 +1,18 @@
-======
-g15vim
-======
+2011-07-22  YuGiOhJCJ  <yugiohjcj@1s.fr>
 
-20090608: Add ChangeLog file. Redirect the standard error output stream to the null
+	* ChangeLog: Respect the GNU Coding Standards.
+	* draw-on-g15: Update to draw-on-g15 version 20110716.
+	* g15vim.vim: The first message displays the website URL.
+	* g15vim.vim: Add the ":G15vim" command.
+	* gpl-3.0.txt: Rename to COPYING.
+	* README: Update the vim version to 7.2.445.
+	* README: Explain how to use the new G15vim command.
+	* TODO: New file (the things to do for the next releases).
+
+2009-06-08  YuGiOhJCJ  <yugiohjcj@1s.fr>
+	* ChangeLog: New file (the list of changes).
+	* g15vim.vim: Redirect the standard error output stream to the null.
 device.
-20090528: First version.
+
+2009-05-28  YuGiOhJCJ <yugiohjcj@1s.fr>
+	* *: First version.
